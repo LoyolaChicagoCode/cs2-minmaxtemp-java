@@ -16,7 +16,7 @@ public class TestTempExample {
 
         // invoke the actual functionality (System Under Test = SUT)
 
-        final var actualResult = TempExample.computeMinMax(testData);
+        final var actualResult = TempExample.computeMinMax(testData, false);
 
         // verify result
 
